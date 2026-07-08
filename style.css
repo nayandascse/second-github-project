@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    padding: 80px 8%;
+}
+.coffe-color{
+    color: #E9B44C;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E2622;
+    align-items: center;
+    padding: 18px 8%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px ;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./image/bg-image.avif');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header-containt{
+    text-align: center;
+    color: #ffffff;
+    display: grid;
+    gap: 20px;
+}
+.header-containt button{
+    width: 20%  ;
+    margin-left: 40%;
+    padding: 10px 0px;
+    background-color: #E9B44C;
+    border-radius: 18px;
+}
+.our-story{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px ;
+}
+.our-story div img{
+    width: 100% ;
+    border-radius: 12px;
+}
+.our-story .right-side{
+    display: grid;
+    align-items: center;
+}
+.right-side div h2{
+    padding-bottom: 12px;
+}
+.right-side div p{
+    padding-bottom: 12px;
+}
+.right-side div button{
+    padding: 8px 12px;
+    border-radius: 18px;
+    border: none;
+    background-color: #E9B44C;
+}
